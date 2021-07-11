@@ -1,0 +1,4 @@
+interest<-0.04;      v<-1/(1+interest)
+outgo<-c(10,25)  #payments due
+outgo_time<-c(3,6)  #time of payments due
+(liabs_pv<-presentValue(outgo,outgo_time,interest))
